@@ -1,0 +1,76 @@
+
+body{
+    background-color: #2a9d8f;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+}
+audio{
+    display:none;
+}
+#header{
+    margin-left: 100px;
+    text-align: left;
+    font-weight: 700;
+}
+h3{
+    margin-left: 20px;
+}
+#score-banner{
+    margin-left: 100px;
+}
+ #start-button{
+    border-color: #ff6666;
+    border-radius: 4px;
+    margin:3px;
+    padding: 5px;
+    background-color: #ff748c;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    margin-left:100px
+ }
+ .container{
+    display:flex;
+}
+.grid{
+    width: 200px;
+    height:400px;
+    display: flex; /*Flex container is a css display condition. there are other features like flesx-wrap, justify-content,align-center,etc.*/
+    flex-wrap: wrap;
+    background-color: #F6D55C;
+    margin-top: 90px;
+    margin-left:100px;
+}
+.grid div{
+    height:20px;
+    width: 20px;
+    /*background-color: red;*/
+}
+.tetrimino{
+    background-color: blue;
+}
+#next-tetri-banner{
+    width: 50px;
+    height:50px;
+    margin-left:50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.mini-grid{
+    margin-left: 50px;
+    width:80px;
+    height:80px;
+    display:flex;
+    flex-wrap: wrap;
+    background-color: #F6D55C;
+}
+
+.mini-grid div{
+    height: 20px;
+    width:20px;
+    color: blue;
+}
+#game-over{
+    display: none;
+    margin-left:130px;
+    margin-top:30px
+}
